@@ -24,7 +24,8 @@ jobs:
           CSPM_URL: https://eu-1.api.cloudsploit.com
           TRIVY_RUN_AS_PLUGIN: 'aqua'
           # For http/https proxy configuration add env vars: HTTP_PROXY/HTTPS_PROXY, CA-CRET (path to 
-  build and test:
+
+  build:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
